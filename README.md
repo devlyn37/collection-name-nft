@@ -1,15 +1,13 @@
-# Basic Sample Hardhat Project
+# Collection Name NFTs
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+A collection of NFT collection names 😃. View one [here](https://testnets.opensea.io/assets/0xac873d4350174c115a7c703ef0523a63e069b192/2)
 
-Try running some of the following tasks:
+Contract based on a Buildspace project 🦄.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+During a mint, the contract generates an SVG with Pseudorandomly selected words from three lists (number, adjective, animal).
+
+The contract is deployed on Rinkeby.
+
+Mint one on the [client](https://classic-collection-nft-web.devlyn37.repl.co)
+
+Here's the [client repo](https://github.com/devlyn37/collection-name-nft-web)
